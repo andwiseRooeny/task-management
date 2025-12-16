@@ -1,5 +1,5 @@
 ---
-description: 업무 유형을 분류하고 체크리스트를 생성하는 커맨드. task-init 완료 후 호출.
+description: 업무 유형을 분류하는 커맨드. task-init 완료 후 호출.
 ---
 
 # Task Router
@@ -14,7 +14,7 @@ description: 업무 유형을 분류하고 체크리스트를 생성하는 커�
 2. 업무 설명에서 키워드 분석
 3. 아래 매핑 테이블 기반으로 적합한 업무 유형 3개 추천
 4. 사용자가 선택하거나 직접 입력
-5. `_task/L3_CONTEXT.md` 파일 생성
+5. `_task/L2_ROUTER.md` 파일 생성
 
 ## 업무 유형 매핑 테이블
 
@@ -221,23 +221,14 @@ description: 업무 유형을 분류하고 체크리스트를 생성하는 커�
 - [ ] 리스크 식별
 - [ ] 계획서 작성
 
-## 출력 파일: _task/L3_CONTEXT.md
+## 출력 파일: _task/L2_ROUTER.md
 
 ```markdown
-# Task Context
+# Task Router
 
 ## Task ID
 {L1_INIT.md에서 가져온 Task ID}
 
 ## 업무 유형
 {유형명} ({코드}) - {카테고리}
-
-## 체크리스트
-{선택된 유형의 체크리스트}
-
-## 진행 상태
-- [ ] 진행 중
-
-## 메모
-(작업 중 기록)
 ```
